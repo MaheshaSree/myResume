@@ -1,0 +1,52 @@
+.subhead {
+	font-size: 35px;
+}
+
+.split {
+  height: 100%;
+  width: 43%;
+  position: absolute;
+  z-index: 1;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.left {
+  left: 0;
+}
+.right {
+  right: 0;
+}
+
+.container {
+  width: 80%; 
+  background-color: #ddd; 
+  border-radius: 15px;
+}
+.skills {
+  text-align: left;
+  border-radius: 15px;
+  color: white; 
+  background-color: #EEE;
+  padding: 1px;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  font-size: 13px;
+  color: #FFF;
+  font-weight: bold;
+}
+.skills::before{
+  content:  attr(data-skill);
+  display: inline-block;
+  padding: 3px 0 3px 3px;
+  border-radius: inherit;
+}
+.C {width: 80%; background-color: #ffcc33;}
+.Java {width: 70%; background-color: #ffcc33;}
+.SQL {width: 85%; background-color: #ffcc33;}
+.JavaScript {width: 45%; background-color: #ffcc33;}
+.HTML {width: 60%; background-color: #ffcc33;}
+.CSS {width: 45%; background-color: #ffcc33;}
+.DS {width: 75%; background-color: #ffcc33;}
+.AT {width: 80%; background-color: #ffcc33;}
+.MA {width: 85%; background-color: #ffcc33;}
+.PM {width: 80%; background-color: #ffcc33;}
